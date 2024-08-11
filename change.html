@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page in HTML</title>
+</head>
+<body>
+    <h1>Zaloguj siê!</h1>
+    <form action="">
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h3>Zaloguj siê</h3>
+            <p>Zaloguj siê swoj¹ nazw¹ i has³em</p>
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username">Twoja Nazwa</label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="pswrd">Has³o</label>
+            <input type="password" placeholder="Enter Password" name="pswrd" required>
+
+            <!-- sub container for the checkbox and forgot password link -->
+            <div class="subcontainer">
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <p class="forgotpsd"> <a href="#">Zapomnia³eœ has³a?</a></p>
+            </div>
+
+
+            <!-- Submit button -->
+            <button type="submit">Login</button>
+
+            <!-- Sign up link -->
+            <p class="register">Nie jesteœ cz³onkiem?  <a href="#">Zaloguj siê tutaj!</a></p>
+
+        </div>
+
+    </form>
+</body>
+</html>
